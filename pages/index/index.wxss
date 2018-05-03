@@ -1,4 +1,7 @@
 /**index.wxss**/
+page{
+  background-color: #CCCCCC;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -6,9 +9,9 @@
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+  width: 138rpx;
+  height: 138rpx;
+  margin: 35rpx;
   border-radius: 50%;
 }
 
@@ -19,3 +22,20 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.header{
+  height: 100px;
+  background-color: #FFFFFF;
+  margin: 5px 0 0 0;
+}
+ .avatar{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.user-info{
+  width: 275px;
+  height: 100px;
+  float: right;
+} 

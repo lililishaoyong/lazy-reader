@@ -8,5 +8,18 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "书架"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "书库"
+        }
+      ],
+      "selectedColor":"#FF9999"
+    }
 }
